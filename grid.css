@@ -1,0 +1,24 @@
+.Header {grid-area: header;
+          background:  red}	
+.Main {grid-area: mainbar;
+         background: #7e7a7c }
+.Menu {grid-area: menu;
+         background:  green}
+.Content {grid-area: content;
+         background:  #de781e}
+.Footer {grid-area: footer;
+         background:  #821fc8}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  'header header header header header'
+  'mainbar mainbar mainbar mainbar mainbar'
+  'menu content content content content'
+  'footer footer footer footer footer';
+                          
+  background: #821fc8;
+  padding: 10px;
+  font-size: 100px;
+ }
